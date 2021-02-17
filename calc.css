@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    text-align: left;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.calc{
+    flex: 30%;
+    background: #d5e9fe;
+    margin: 10px;
+    border: 1px solid #242b32;
+    border-radius: 6.5px;
+/*    height: 200px;*/
+    padding: 20px 50px 20px 50px;
+}
+.sum{
+    flex: 100%;
+    background: #d5e9fe;
+    margin: 10px;
+    border: 1px solid #242b32;
+    border-radius: 6.5px;
+/*    height: 200px;*/
+    padding: 20px 50px 20px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

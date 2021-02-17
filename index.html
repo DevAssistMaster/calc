@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link href="calc.css" rel="stylesheet">
+</head>
+<body>
+   <div class="wrapper">
+       <div class="calc">
+           <div class="outside"></div>
+           <div class="insaide">
+               <p>масса еталона:<input placeholder="100" type="text" id="n1"></p>
+               <p>искомая масса:<input type="text" id="n2"></p>
+               
+               <p>ккал еталона:<input type="text" id="n3"></p>
+               <p>б еталона:<input type="text" id="n4"></p>
+               <p>ж еталона:<input type="text" id="n5"></p>
+               <p>у еталона:<input type="text" id="n6"></p>
+               
+<!--
+               <p>ккал искомого:<input type="text" id="n7"></p>
+               <p>б искомого:<input type="text" id="n8"></p>
+               <p>ж искомого:<input type="text" id="n9"></p>
+               <p>у искомого:<input type="text" id="n10"></p>
+-->
+               <br>
+               <button onclick="plus()">посчитать бжу</button>
+<!--
+               <button onclick="minus()">Вычесть</button>
+               <button onclick="multiply()">Умножить</button>
+               <button onclick="divide()">Разделить</button>
+-->
+               <br>
+               <br>
+<!--               <button onclick="stage()">В степень</button>-->
+               <p>ккал искомого:</p><p id="out1"></p>
+               <p>б искомого:</p><p id="out2"></p>
+               <p>ж искомого:</p><p id="out3"></p>
+               <p>у искомого:</p><p id="out4"></p>
+               <script type="text/javascript" src="script.js"></script>
+           </div>
+       </div>
+       <div class="calc">
+           <div class="outside"></div>
+           <div class="insaide">
+               <p>масса еталона:<input placeholder="100" type="text" id="n1T"></p>
+               <p>искомая масса:<input type="text" id="n2T"></p>
+               
+               <p>ккал еталона:<input type="text" id="n3T"></p>
+               <p>б еталона:<input type="text" id="n4T"></p>
+               <p>ж еталона:<input type="text" id="n5T"></p>
+               <p>у еталона:<input type="text" id="n6T"></p>
+               
+<!--
+               <p>ккал искомого:<input type="text" id="n7"></p>
+               <p>б искомого:<input type="text" id="n8"></p>
+               <p>ж искомого:<input type="text" id="n9"></p>
+               <p>у искомого:<input type="text" id="n10"></p>
+-->
+               <br>
+               <button onclick="plusT()">посчитать бжу</button>
+<!--
+               <button onclick="minus()">Вычесть</button>
+               <button onclick="multiply()">Умножить</button>
+               <button onclick="divide()">Разделить</button>
+-->
+               <br>
+               <br>
+<!--               <button onclick="stage()">В степень</button>-->
+               <p>ккал искомого:</p><p id="out1T"></p>
+               <p>б искомого:</p><p id="out2T"></p>
+               <p>ж искомого:</p><p id="out3T"></p>
+               <p>у искомого:</p><p id="out4T"></p>
+               <script type="text/javascript" src="script.js"></script>
+           </div>
+       </div>
+       <div class="sum">
+           <div class="outside"></div>
+           <div class="insaide">
+               <button onclick="plusTH()">посчитать бжу</button>
+               <br>
+               <p>ккал всего:</p><p id="out1TH"></p>
+               <p>б всего:</p><p id="out2TH"></p>
+               <p>ж всего:</p><p id="out3TH"></p>
+               <p>у всего:</p><p id="out4TH"></p>
+               <script type="text/javascript" src="script.js"></script>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
